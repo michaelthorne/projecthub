@@ -11,6 +11,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
 
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+
     <!-- Style Sheets -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -23,13 +26,45 @@
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="header" role="banner">
-
+    <header class="header header--primary is-fixed" role="banner">
+        <h1 class="delta hN">Name of Project &ndash; Timeline</h1>
     </header>
 
     <main class="main" role="main">
-        <h1>Hello world!</h1>
-        <a href="404.html">404</a>
+        <ol class="tl">
+            <li class="tl-node">
+                <time class="tl-node__time" datetime="2014-04-17">17 July, 2014</time>
+                <h2 class="tl-node__title">Prototype</h2>
+                <ul class="tl-refs">
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #1</a></li>
+                </ul>
+            </li>
+            <li class="tl-node">
+                <time class="tl-node__time" datetime="2014-07-15">15 July, 2014</time>
+                <h2 class="tl-node__title">Design references</h2>
+                <ul class="tl-refs">
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #1</a></li>
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #2</a></li>
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #3</a></li>
+                </ul>
+            </li>
+            <li class="tl-node">
+                <time class="tl-node__time" datetime="2014-07-13">13 July, 2014</time>
+                <h2 class="tl-node__title">Follow up</h2>
+                <ul class="tl-refs">
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #1</a></li>
+                </ul>
+            </li>
+            <li class="tl-node">
+                <time class="tl-node__time" datetime="2014-07-12">12 July, 2014</time>
+                <h2 class="tl-node__title">Initial meeting</h2>
+                <ul class="tl-refs">
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #1</a></li>
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #2</a></li>
+                    <li class="tl-refs__item"><a href="index.html" class="tl-refs__link">Reference #3</a></li>
+                </ul>
+            </li>
+        </ol>
     </main>
 
     <footer class="footer" role="contentinfo">
