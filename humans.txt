@@ -20,10 +20,9 @@
     Paul Irish -- @paul_irish
     Roger Johansson -- @rogerjohansson
     Scott Jehl -- @scottjehl
-    <name> -- <twitter>
 
 # SITE
 
     Last Update: 2014/07/17
     Standards: HTML5, CSS3
-    Components: Font Awesome, jQuery, LESS, Normalize.css
+    Components: Font Awesome, jQuery, Normalize.css
