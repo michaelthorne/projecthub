@@ -8,7 +8,7 @@ module.exports = function (grunt)
                     hostname: '*',
                     livereload: true,
                     open: {
-                        target: 'http:127.0.0.1:1337'
+                        target: 'http://127.0.0.1:1337'
                     },
                     port: 1337,
                     useAvailablePort: true
@@ -33,20 +33,6 @@ module.exports = function (grunt)
                 },
                 options: {
                     cleancss: true
-                }
-            }
-        },
-        pagespeed: {
-            options: {
-                nokey: true,
-                url: "https://developers.google.com"
-            },
-            build: {
-                options: {
-                    url: "http://127.0.0.1:1337",
-                    locale: "en",
-                    strategy: "desktop",
-                    threshold: 80
                 }
             }
         },
