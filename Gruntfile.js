@@ -83,7 +83,7 @@ module.exports = function (grunt)
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.loadNpmTasks('grunt-pagespeed');
+
     grunt.registerTask('default', defaultTasks);
     grunt.registerTask('serve', ['less', 'connect', 'watch']);
 };
