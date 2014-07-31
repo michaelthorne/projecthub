@@ -70,13 +70,6 @@ module.exports = function (grunt)
         }
     });
 
-    var defaultTasks = [
-        'csslint',
-        'jshint',
-        'less',
-        'validation'
-    ];
-
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-csslint');
     grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -84,6 +77,5 @@ module.exports = function (grunt)
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-html-validation');
 
-    grunt.registerTask('default', defaultTasks);
     grunt.registerTask('serve', ['less', 'connect', 'watch']);
 };
