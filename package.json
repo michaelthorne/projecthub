@@ -1,12 +1,12 @@
 {
-    "name": "projecthub",
+    "name": "timeline",
     "version": "0.0.0",
-    "description": "Project Hub",
+    "description": "Timeline",
     "author": "Michael Thorne",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/michaelthorne/projecthub.git"
+        "url": "https://github.com/michaelthorne/timeline.git"
     },
     "devDependencies": {
         "grunt": "~0.4.5",

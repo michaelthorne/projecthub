@@ -1,7 +1,7 @@
-## [Project Hub](http://userx.co.za/work/projecthub)
+## [Timeline](http://userx.co.za/work/timeline)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com)
-[![NPM Dependencies](https://david-dm.org/michaelthorne/projecthub.png)](https://david-dm.org)
+[![NPM Dependencies](https://david-dm.org/michaelthorne/timeline.png)](https://david-dm.org)
 
 ### Requirements
 
@@ -12,8 +12,8 @@ Ensure that the following are installed on your computer:
 
 ### Getting Started
 
-1. Clone the repository: `git clone git@github.com:michaelthorne/projecthub.git`
-2. Change to the directory you cloned the repository into: e.g. `cd projecthub`
+1. Clone the repository: `git clone git@github.com:michaelthorne/timeline.git`
+2. Change to the directory you cloned the repository into: e.g. `cd timeline`
 3. Run the node install command which downloads the required Grunt plugins: `npm install`
 4. Start the local server and watch task: `grunt serve`
 
